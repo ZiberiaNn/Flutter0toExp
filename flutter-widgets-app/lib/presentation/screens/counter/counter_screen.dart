@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:widgets_app/presentation/providers/counter_provider.dart';
 import 'package:widgets_app/presentation/providers/theme_provider.dart';
-import 'package:widgets_app/presentation/widgets/side_menu.dart';
 
 class CounterScreen extends ConsumerWidget {
   static const String name = 'counter_screen';
